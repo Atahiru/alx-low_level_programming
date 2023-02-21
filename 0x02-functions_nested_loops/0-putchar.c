@@ -1,6 +1,4 @@
 #include "main.h"
-#include <unistd.h>
-#include <stdio.h>
 /**
   * main - Entry point
   *
@@ -8,23 +6,16 @@
   */
 int main(void)
 {
-	char c = '_';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = 'p';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = 'u';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = 't';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = 'c';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = 'h';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = 'a';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = 'r';
-  	write(STDOUT_FILENO, &c, 1);
-  	c = '\n';
-  	write(STDOUT_FILENO, &c, 1);
-   	 return 0;
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
+
+	return (0);
 }
