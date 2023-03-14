@@ -3,14 +3,15 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
+ * create_array -create an array and initializes it
+ * @c: initailizes the array
  * @size: the size of the memory to print
  *
- * Return: Nothing.
+ * Return: Pointer.
  */
 
-char *create_array(unsigned int size, char c) {
+char *create_array(unsigned int size, char c)
+{
     char *arr;
     unsigned int i;
 
@@ -25,8 +26,5 @@ char *create_array(unsigned int size, char c) {
     for(i = 0; i < size; i++)
 	    arr[i] = c;
 
-    /* arr[size] = '\0';*/
-
     return (arr);
 }
-
