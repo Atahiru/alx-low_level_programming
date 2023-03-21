@@ -2,17 +2,16 @@
 #include "dog.h"
 
 /**
- *
- * init_dog - initialize the dog struc variables
- *
- * @name: String Literal
- *
- * @d: pointer to the Struc dog
- *
- * @age: Age of the dog
- *
- * @owner: Owner of the dog
- */
+* init_dog - Initializes the dog struct variables
+*
+* @name: String literal
+*
+* @d: Pointer to struct dog
+*
+* @age: Age of the dog
+*
+* @owner: Owner of the dog
+*/
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
